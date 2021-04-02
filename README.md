@@ -1,4 +1,13 @@
 # Merging, Measuring, and Modelling for Neurodegenerative Disease research
+
+Table of Contents
+1. [Background](#research-software-tools-with-a-focus-on-brain-circuitsnetworks)
+2. [Rationale](#rationale-for-the-merging-measuring-modelling-paradigm)
+3. [Merging](#merging) tools
+4. [Measuring](#measuring) tools
+5. [Modelling](#modelling) tools
+
+
 ## Research software tools with a focus on brain circuits/networks
 
 This toolbox contains work-in-progress research code for [**Merging**](#merging) and harmonizing data, [**Measuring**](#measuring) _in vivo_ brain circuit anatomy and activity, and [**Modelling**](#modelling) neurodegenerative disease progression.
@@ -17,8 +26,7 @@ During development of the toolbox, we have the following sub-aims:
 1. **Case Studies** on publicly available data: provide useful research code, e.g., merging [PPMI](https://ppmi-info.org) spreadsheets, that can facilitate/inspire others.
 2. **Reproducibility** and open science: provide transparency for our own analyses.
 
-<hr/>
-<hr/>
+---
 
 ## Merging
 Tools to prepare large neuroimaging datasets for analysis, including harmonisation. 
@@ -49,9 +57,10 @@ with 3x3x3 input patch on subject 117324. Note that no boundary completion was p
 
 ### Clinica
 [Clinica](http://www.clinica.run/) is a general software platform for multimodal brain image analysis in clinical research studies, integrating a comprehensive set of processing tools for the main neuroimaging modalities: currently MRI (anatomical, functional, diffusion) and PET. Future: EEG/MEG.
+
 ![imageClinica](./images/clinica_800.jpg)
 
-<hr/>
+---
 
 ## Measuring
 Tools to analyse neuroimaging data, with a focus on brain circuit/network analyses.
@@ -71,10 +80,10 @@ Third-party software is often involved. A future aim is to provide conda/Docker 
 ### Brain circuit activity: fMRI pipelines
 
 - Thomas Yeo's Computational Brain Imaging Group tools
-  - Code: [CBIG](https://github.com/ThomasYeoLab/CBIG)
   - fMRI preprocessing, _et al._
+  - Code: [CBIG](https://github.com/ThomasYeoLab/CBIG)
 
-<hr/>
+---
 
 ## Modelling
 Tools to analyse typically large neuroimaging datasets to understand disease progression.
