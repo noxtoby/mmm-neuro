@@ -3,14 +3,14 @@
 Table of Contents
 1. [Background](#research-software-tools-with-a-focus-on-brain-circuitsnetworks)
 2. [Rationale](#rationale-for-the-merging-measuring-modelling-paradigm)
-3. [Merging](#merging) tools
-4. [Measuring](#measuring) tools
-5. [Modelling](#modelling) tools
+3. [Merging](#merging) tools: [ppmi_merger.py](https://github.com/noxtoby/NetMON/blob/master/ppmi_merger.py); [IQT](https://github.com/noxtoby/iqt); [Clinica](http://www.clinica.run/)
+4. [Measuring](#measuring) tools: [HCP SC GIF](https://github.com/noxtoby/HCP-Files); [NetMON](https://github.com/NetMON); [CBIG](https://github.com/ThomasYeoLab/CBIG)
+5. [Modelling](#modelling) tools: [KDE EBM](https://github.com/noxtoby/kde_ebm); [pySuStaIn](https://github.com/ucl-pond/pySuStaIn); [mechanistic-profiles](https://github.com/noxtoby/mechanistic-profiles); [EuroPOND modelling software toolbox](https://github.com/EuroPOND/europond-software)
 
 
 ## Research software tools with a focus on brain circuits/networks
 
-This toolbox contains work-in-progress research code for [**Merging**](#merging) and harmonizing data, [**Measuring**](#measuring) _in vivo_ brain circuit anatomy and activity, and [**Modelling**](#modelling) neurodegenerative disease progression.
+This toolbox contains research code for [**Merging**](#merging) and harmonizing data, [**Measuring**](#measuring) _in vivo_ brain circuit anatomy and activity, and [**Modelling**](#modelling) neurodegenerative disease progression. We focus on tools we developed (or helped to develop), and those of our collaborators.
 
 Ultimately we aim to provide a toolbox of research software (as opposed to code) that can _facilitate_ (but not necessarily automate) your own end-to-end analyses of neurodegenerative diseases to reveal insight into disease biology/mechanisms and actionable information for medicine and healthcare.
 
@@ -110,6 +110,18 @@ _Subtyping (left) and Staging (right) of ADNI data. From [Young et al., Nature C
 _Subtyping (left) and Staging (right) of ADNI data. From [Young et al., Nature Communications (2018)](https://doi.org/10.1038/s41467-018-05892-0)._
 
 - [pySuStaIn](https://github.com/ucl-pond/pySuStaIn) is the python implementation of SuStaIn, with the option to describe the subtype progression patterns using either an event-based model or a piecewise linear z-score model.
+
+### Topological Progression Profiles
+**Topological Progression Profiles** (TPPs) are a characteristic combination of topological descriptors that best describes the propagation of pathology in a particular disease. This is a method for understanding the relationship between brain circuits and spatiotemporal patterns of brain pathology in neurological diseases, at both cohort- and individual-levels.
+
+By combining data-driven disease progression modelling with learning a weighted combination of topological descriptors, TPPs explain observed pathology better than profiles estimated when using end-stage data only, and better than single topological descriptors (such as testing disease mechanism hypotheses independently: [Zhou...Seeley, Neuron (2012)](https://doi.org/10.1016/j.neuron.2012.03.004)).
+
+TPPs suggest new insights into the biological mechanisms underlying pathology propagation in neurological diseases.
+
+![imageTPPs](./images/tpps.jpg)
+_Topological Progression Profiles in Alzheimer's, Primary Progressive Multiple Sclerosis, and Healthy Ageing. From [Garbarino et al., eLife (2019)](https://doi.org/10.7554/eLife.49298)._
+
+- [mechanistic-profiles](https://github.com/noxtoby/mechanistic-profiles) is the MATLAB implementation of TPPs.
 
 
 ### EuroPOND software toolbox
