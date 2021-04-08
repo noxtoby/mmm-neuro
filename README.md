@@ -100,14 +100,16 @@ Expected to be useful for the following:
   - Paper: [Firth et al., Alzheimer's & Dementia (2020)](https://doi.org/10.1002/alz.12083)
   - Code: [KDE EBM](https://github.com/noxtoby/kde_ebm) (python)
 
-![imageSuStain](./images/kde_ebm_skewers.png)
-_Subtyping (left) and Staging (right) of ADNI data. From [Young et al., Nature Communications (2018)](https://doi.org/10.1038/s41467-018-05892-0)._
+_Toy examples of biomarker overlap (patients and controls) and non-Gaussianity that the KDE EBM can handle [Firth et al., Alzheimer's & Dementia (2020)](https://doi.org/10.1002/alz.12083)._
+
+![imageKDEEBM](./images/kde_ebm_skewers.png)
 
 ### SuStaIn: Subtype and Stage Inference
 **Su**btype and **Sta**ge **In**ference is an algorithm for discovery of data-driven groups or "subtypes" in chronic disorders.
 
-![imageSuStain](./images/sustain_800.jpg)
 _Subtyping (left) and Staging (right) of ADNI data. From [Young et al., Nature Communications (2018)](https://doi.org/10.1038/s41467-018-05892-0)._
+
+![imageSuStain](./images/sustain_800.jpg)
 
 - [pySuStaIn](https://github.com/ucl-pond/pySuStaIn) is the python implementation of SuStaIn, with the option to describe the subtype progression patterns using either an event-based model or a piecewise linear z-score model.
 
@@ -118,8 +120,9 @@ By combining data-driven disease progression modelling with learning a weighted 
 
 TPPs suggest new insights into the biological mechanisms underlying pathology propagation in neurological diseases.
 
-![imageTPPs](./images/tpps.jpg)
 _Topological Progression Profiles in Alzheimer's, Primary Progressive Multiple Sclerosis, and Healthy Ageing. From [Garbarino et al., eLife (2019)](https://doi.org/10.7554/eLife.49298)._
+
+![imageTPPs](./images/tpps.jpg)
 
 - [mechanistic-profiles](https://github.com/noxtoby/mechanistic-profiles) is the MATLAB implementation of TPPs.
 
