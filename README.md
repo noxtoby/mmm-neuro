@@ -1,4 +1,4 @@
-# Merging, Measuring, and Modelling for Neurodegenerative Disease research
+# M3-ND: Merging, Measuring, and Modelling for Neurodegenerative Disease research
 
 Table of Contents
 1. [Background](#research-software-tools-with-a-focus-on-brain-circuitsnetworks)
