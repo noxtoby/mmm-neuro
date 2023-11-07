@@ -4,7 +4,7 @@ Table of Contents
 1. [Background](#research-software-tools-with-a-focus-on-brain-circuitsnetworks)
 2. [Rationale](#rationale-for-the-merging-measuring-modelling-paradigm)
 3. [Merging](#merging) tools: [ppmi_merger.py](https://github.com/noxtoby/NetMON/blob/master/ppmi_merger.py); [IQT](https://github.com/noxtoby/iqt); [Clinica](http://www.clinica.run/)
-4. [Measuring](#measuring) tools: [HCP SC GIF](https://github.com/noxtoby/HCP-Files); [NetMON](https://github.com/NetMON); [CBIG](https://github.com/ThomasYeoLab/CBIG)
+4. [Measuring](#measuring) tools: [HCP SC GIF](https://github.com/noxtoby/HCP-Files); [NetMON](https://github.com/noxtoby/NetMON); [CBIG](https://github.com/ThomasYeoLab/CBIG)
 5. [Modelling](#modelling) tools: [KDE EBM](https://github.com/noxtoby/kde_ebm); [pySuStaIn](https://github.com/ucl-pond/pySuStaIn); [mechanistic-profiles](https://github.com/noxtoby/mechanistic-profiles); [EuroPOND modelling software toolbox](https://github.com/EuroPOND/europond-software)
 
 
